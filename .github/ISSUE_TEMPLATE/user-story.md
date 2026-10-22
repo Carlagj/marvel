@@ -2,9 +2,9 @@
 name: User Story
 about: Historia de usuario
 title: ''
-labels: ''
+labels: user-story
 assignees: ''
-
+type: Feature
 ---
 
 ## 🎯 Historia de usuario
