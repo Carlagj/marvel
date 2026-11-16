@@ -25,17 +25,8 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-        // Crear un fichero SharedPreferences para verlo
 
-        val xml = SuperHeroXmlLocalDataSource(this)
-        xml.save(mutableListOf(SuperHero("0","SuperMam","super-man","https://"),
-            SuperHero("1","SuperMam1","super-man1","https://"),
-            SuperHero("2","SuperMam2","super-man2","https://")
 
-        ))
-
-        val superHero = xml.findById("2")
-        Log.d(MainActivity::class.java.simpleName, superHero.toString())
 
     }
 }
