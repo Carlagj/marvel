@@ -7,7 +7,7 @@ interface AppTime{
 
 class LocalAppTime : AppTime
 {
-    override fun currentTimeLong(): Long {
+    override fun currentTimeToLong(): Long {
         return System.currentTimeMillis()
     }
 }
